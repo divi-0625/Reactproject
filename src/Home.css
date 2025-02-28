@@ -1,0 +1,80 @@
+.header{
+    margin: 10px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+h2{
+    padding-left: 40px;
+    font-size: 30px;
+    font-style: oblique; 
+    padding-bottom: 20px;
+    margin: 10px;
+    
+}
+.base{
+    height: 600px;
+    margin: 10px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(230, 176, 216);
+}
+.first{
+    height: 500px;
+    width: 300px;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.second{
+    height: 500px;
+    width: 300px;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.third{
+    height: 500px;
+    width: 300px;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    align-items: center;
+}
+.logoset{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    padding: 20px;
+}
+.menucontainer{
+    display: flex;
+   padding-left: 1000px;
+   justify-content: space-around;
+    
+}
+.text{
+    font-size: 20px;
+    font-style: bold;
+}
