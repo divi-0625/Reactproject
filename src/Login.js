@@ -1,6 +1,7 @@
  import React from 'react';
  import './Login.css'
  import  './Home'
+ import logo from './logo.png'
 
 const Login = () => {
   function signup(){
@@ -9,6 +10,7 @@ const Login = () => {
   return (
     <div className='parent'>
       <div className='child'>
+        <img  className='loginlogo'src={logo} alt=""/>
         <div>
           <h2 className='login'>LoginPage</h2>
           <input type='email' placeholder='Enter EmailId'></input>
